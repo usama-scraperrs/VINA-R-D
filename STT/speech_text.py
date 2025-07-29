@@ -59,6 +59,7 @@ def run():
         while True:
             if wait > 5:
                 afrun(final_speech)
+                break
             else:
                 final_speech += record_and_transcribe()
             wait += 1
